@@ -7,8 +7,10 @@ for letter in chosen_word:
     placeholder += "_"
 print(placeholder)
 list_item = []
-while True:
-    display = " "
+lives = 5
+print("your lives : ", lives)
+while lives >=0:
+    display = ""
     guess = input("Guess a letter: ").lower()
     for letter in chosen_word:
         if letter == guess:
@@ -18,4 +20,13 @@ while True:
             display += letter
         else:
             display += "_"
+    if guess not in chosen_word:
+        lives -=1
+    print("your lives : ", lives)
+    if lives == 0:
+        print("you lost")
+        break
+    if display == chosen_word:
+        print("you win")
+        break
     print(display)
