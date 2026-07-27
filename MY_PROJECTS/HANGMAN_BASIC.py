@@ -6,7 +6,6 @@ placeholder = ''
 for letter in chosen_word:
     placeholder += "_"
 print(placeholder)
-guess = input("Guess a letter: ").lower()
 list_item = []
 while True:
     display = " "
