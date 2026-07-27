@@ -64,7 +64,7 @@ for letter in chosen_word:
     placeholder += "_"
 print(placeholder)
 list_item = []
-lives = 6
+lives = 7
 print("your lives : ", lives)
 while lives >=0:
     display = ""
