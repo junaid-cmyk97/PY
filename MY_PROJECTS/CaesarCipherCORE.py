@@ -8,7 +8,6 @@ def encrypt_value(text, shift, result= ""):
         else:
             result += char
     return result
-
 def decrypt_value(text, shift, result1= ""):
     for char in text:
         if char.isalpha():
@@ -33,5 +32,4 @@ print("decrypted value:" ,decrypt_code)
 #     decrypt = decrypt_value(user_input, shift)
 #     print("decrypted value:",decrypt)
 # else:
-#     print("invalid input")
-
+#     print("invalid input"
