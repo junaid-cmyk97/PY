@@ -26,7 +26,7 @@ while True:
             display += letter
         else:
             display += "_"
-            
+            "Syn$Inf123"
     print(display)
         
         
