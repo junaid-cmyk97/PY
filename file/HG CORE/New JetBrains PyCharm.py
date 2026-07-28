@@ -15,8 +15,11 @@ def caesar(text, shift):
     return result
 message = input("user ")
 shift = 3
+#1
 encrypted = caesar(message, shift)       # Encrypt
+#2
 decrypted = caesar(encrypted, -shift)    # Decrypt
+
 print("Original :", message)
 print("Encrypted:", encrypted)
 print("Decrypted:", decrypted)
