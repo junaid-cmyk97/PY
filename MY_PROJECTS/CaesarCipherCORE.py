@@ -25,6 +25,7 @@ encrypt = encrypt_value(user_input , shift )
 print("encrypted value:",encrypt)
 decrypt_code = decrypt_value(encrypt, shift )
 print("decrypted value:" ,decrypt_code)
+
 # user_input = input("encode or decode:\n")
 # if user_input == "encode":
 #     encrypt = encrypt_value(user_input, shift)
@@ -33,5 +34,4 @@ print("decrypted value:" ,decrypt_code)
 #     decrypt = decrypt_value(user_input, shift)
 #     print("decrypted value:",decrypt)
 # else:
-#     print("invalid input")
-
+#     print("invalid input"
