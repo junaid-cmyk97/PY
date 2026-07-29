@@ -30,6 +30,9 @@ def auction():
             highest_bidder = max(bids,key=bids.get)
             highest_bid = bids[highest_bidder]
             print(f"the highest bid is {highest_bidder} with {highest_bidd})")
+            
+auction()
+
 
 
 
