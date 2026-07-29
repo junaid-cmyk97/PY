@@ -1,20 +1,6 @@
 import art
 
-logo = r'''
-                         ___________
-                         \         /
-                          )_______(
-                          |"""""""|_.-._,.---------.,_.-._
-                          |       | | |               | | ''-.
-                          |       |_| |_             _| |_..-'
-                          |_______| '-' `'---------'` '-'
-                          )"""""""(
-                         /_________\\
-                       .-------------.
-                      /_______________\\
-'''
 print(art.logo)
-# print(logo)
 
 def find_largest_bidder(bidders_dictionary):
     largest_bid_price = 0
@@ -40,3 +26,4 @@ while not continue_auction:
     else:
         continue_auction = True
         find_largest_bidder(bidders_dictionary)
+
