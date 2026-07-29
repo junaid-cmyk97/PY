@@ -4,10 +4,10 @@ class CoffeeShop:
         self.name = name
         # Menu with prices
         self.menu = {
-            "espresso": 120,
-            "latte": 150,
-            "cappuccino": 140,
-            "americano": 100
+            "espresso": 12000,
+            "latte": 15000,
+            "cappuccino": 14000,
+            "americano": 10000
         }
         # Inventory (cups available for each drink)
         self.inventory = {
