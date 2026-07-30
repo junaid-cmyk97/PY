@@ -37,7 +37,7 @@ class FAMOUS_TIFFINS:
             if self.resources[item] < self.menu[tiff][item]:
                 print(f"out of resources for {item}")
                 return False
-        return True
+        return Trueo
 
     def payment_type(self,price):
         amount = input("user cash :")
