@@ -1,0 +1,24 @@
+import datetime
+
+# Food items with their prices and cooking times (in minutes)
+food_menu = {
+    "Pizza": {"price": 250, "time_to_cook": 15},
+    "Burger": {"price": 120, "time_to_cook": 10},
+    "Pasta": {"price": 180, "time_to_cook": 12},
+    "Sandwich": {"price": 90, "time_to_cook": 7},
+    "Ice Cream": {"price": 70, "time_to_cook": 2}
+}
+
+# Get current time
+current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+# Display the menu with time
+print("Food Menu")
+print("----------------------------")
+print(f"Displayed at: {current_time}")
+print("----------------------------")
+print(f"{'Item':10} | {'Price (₹)':10} | {'Cook Time (min)':15}")
+print("-----------------------------------------------")
+
+for item, details in food_menu.items():
+    print(f"{item:10} | {details['price']:10} | {details['time_to_cook']:15}")
