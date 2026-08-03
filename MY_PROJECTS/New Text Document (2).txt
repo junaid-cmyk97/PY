@@ -1,0 +1,66 @@
+import datetime
+
+# Food items with their prices and cooking times (in minutes)
+food_menu = {
+    "Pizza": {"price": 250, "time_to_cook": 15},
+    "Burger": {"price": 120, "time_to_cook": 10},
+    "Pasta": {"price": 180, "time_to_cook": 12},
+    "Sandwich": {"price": 90, "time_to_cook": 7},
+    "Ice Cream": {"price": 70, "time_to_cook": 2}
+}
+
+# Get current time
+current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+# Display the menu with time
+print("Food Menu")
+print("----------------------------")
+print(f"Displayed at: {current_time}")
+print("----------------------------")
+print(f"{'Item':10} | {'Price (₹)':10} | {'Cook Time (min)':15}")
+print("-----------------------------------------------")
+
+for item, details in food_menu.items():
+    print(f"{item:10} | {details['price']:10} | {details['time_to_cook']:15}")
+import clr
+clr.AddReference('RevitAPI')
+clr.AddReference('RevitAPIUI')
+from Autodesk.Revit.DB import *
+
+doc = __revit__.ActiveUIDocument.Document
+
+# Get all section views in the document
+all_views = FilteredElementCollector(doc).OfClass(View).ToElements()
+
+# Get all viewports on sheets to find views that are placed on sheets
+all_viewports = FilteredElementCollector(doc).OfClass(Viewport).ToElements()
+
+# Collect view IDs that are placed on sheets
+views_on_sheets = set()
+for vp in all_viewports:
+    views_on_sheets.add(vp.ViewId)
+
+# Collect section views that are NOT on sheets
+sections_to_delete = []
+for view in all_views:
+    # Check if it's a section view
+    if view.ViewType == ViewType.Section:
+        # Check if it's not a view template
+        if not view.IsTemplate:
+            # Check if it's not placed on a sheet
+            if view.Id not in views_on_sheets:
+                sections_to_delete.append(view.Id)
+
+# Delete the unused section views
+if sections_to_delete:
+    with Transaction(doc, "Delete Unused Sections") as t:
+        t.Start()
+        for view_id in sections_to_delete:
+            try:
+                doc.Delete(view_id)
+            except Exception as e:
+                print("Could not delete view {}: {}".format(view_id, str(e)))
+        t.Commit()
+    print("Deleted {} unused section view(s).".format(len(sections_to_delete)))
+else:
+    print("No unused section views found.")
