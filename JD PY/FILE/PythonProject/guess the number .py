@@ -17,7 +17,7 @@ result= random.randint(1,20)
 userguess = input("guess the number 1 to 20.")
 print("you chosen", userguess)
 print("random number is ",result)
-for trails == 0:
+for trails >= 0:
     if user guess == result:
         print("win")
     else:

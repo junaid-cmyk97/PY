@@ -8,8 +8,9 @@ n_letters = [random.choice(letters)]
 n_symbols = [random.choice(symbols)]
 numbers =[random.choice(numbers)]
 password = ""
-for i in range(6):
-    password += random.choice(n_letters)
-    password += random.choice(n_symbols)
-    password += str(random.choice(numbers))
-print(password)
+while True:
+    for i in range(6):
+        password += random.choice(n_letters)
+        password += random.choice(n_symbols)
+        password += str(random.choice(numbers))
+    print(password)
