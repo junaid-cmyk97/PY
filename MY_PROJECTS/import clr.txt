@@ -1,0 +1,41 @@
+import clr
+clr.AddReference('RevitAPI')
+clr.AddReference('RevitAPIUI')
+from Autodesk.Revit.DB import *
+from Autodesk.Revit.UI import *
+from System.Collections.Generic import List
+
+doc = __revit__.ActiveUIDocument.Document
+
+# Collect all non-element types (actual instances)
+collector = FilteredElementCollector(doc).WhereElementIsNotElementType()
+
+# Prepare a .NET list for deletion
+elements_to_delete = List[ElementId]()
+
+# Categories we WANT to delete
+delete_categories = [
+    BuiltInCategory.OST_Walls,
+    BuiltInCategory.OST_Doors,
+    BuiltInCategory.OST_Windows,
+    BuiltInCategory.OST_Lines,
+    BuiltInCategory.OST_Furniture,
+    BuiltInCategory.OST_CurtainWallPanels,
+    BuiltInCategory.OST_CurtainWallMullions,
+    # add more if needed
+]
+
+for e in collector:
+    cat = e.Category
+    if not cat:
+        continue
+    if cat.BuiltInCategory in delete_categories:
+        elements_to_delete.Add(e.Id)
+
+with Transaction(doc, "Delete Model Elements") as t:
+    t.Start()
+    if elements_to_delete.Count > 0:
+        doc.Delete(elements_to_delete)
+    t.Commit()
+
+print("Deleted {} elements.".format(elements_to_delete.Count))
