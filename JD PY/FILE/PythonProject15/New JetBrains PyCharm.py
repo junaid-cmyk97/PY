@@ -57,4 +57,3 @@ class CoffeeMachine:
 
 CoffeeMachine().run()
 machine = CoffeeMachine();machine.run()
-

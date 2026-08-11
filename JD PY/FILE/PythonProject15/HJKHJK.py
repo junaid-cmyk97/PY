@@ -1,3 +1,4 @@
+
 import random
 
 trails: int = 0
@@ -39,3 +40,22 @@ while trails > 0:
         print(f"the guess is smaller")
     else:
         print(f"think once about your trails are losing")
+
+#title block size
+root = tk.Tk()
+root.title("Number Guessing Game")
+root.geometry("350 * 250")
+
+#label
+label_title = tk.Label(root,text = "select a random number from 1 to 12",font = ("Arial",12))
+label_title.pack(pady = 15_)
+
+#frame
+frame_levels = tk.frame(root)
+frmae_levels.pack()
+
+
+
+
+
+
