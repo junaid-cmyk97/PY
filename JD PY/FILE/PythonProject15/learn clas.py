@@ -1,5 +1,7 @@
-import math
-print(math.e)
+import os
+
+place = os.getcwd()
+print("im in :",place)
 
 
 

@@ -90,15 +90,30 @@
 # except Exception as e:
 #     print("Oops! Something went wrong:", e)
 
+#
+# class Teacher:
+#    pass
+# teacher_1 = teacher()
+# teacher_1.name = "ben"
+# teacher_1.address = "vns"
+# print(teacher_1.name)
 
-class Teacher:
-   pass
-teacher_1 = teacher()
-teacher_1.name = "ben"
-teacher_1.address = "vns"
-print(teacher_1.name)
 
+# x = 88
+#
+# def my_function():
+#    x = 99
+#    y = 86
+#    print(x)
+#    print(y)
+#
+# my_function()
+# print(x)
+# print(y)
 
+f = open("myfile.txt","r")
+#print(f)
+tex  
 
 
 

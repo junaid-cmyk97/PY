@@ -64,6 +64,13 @@ from unittest import result
 # print(dir())
 
 
+#os .module
+import os
+
+place = os.getcwd()
+print("im in :",place)
+
+
 
 
 
