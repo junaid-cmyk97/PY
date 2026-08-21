@@ -4,6 +4,24 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/calculator/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject1/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject10/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject11/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject12/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject14/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject15/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject2/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject3/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject4/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject5/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject6/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject7/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject9/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/hangman/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/image resizeer/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/password generator/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/quiz app/.venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.14 (FILE)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
