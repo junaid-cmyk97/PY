@@ -1,3 +1,14 @@
+# import pandas
+#
+# data = pandas.read_csv("nato_phonetic_alphabet.csv")
+# print(data.to_dict())
+#
+# #todo : create a dictory in NATO format
+#
+# phonetic = {row.letter: row.code for (index,row) in data.iterrows()}
+# print(phonetic)
+
+
 import random
 
 nato_dict = {
@@ -20,7 +31,17 @@ if answer == nato_dict[letter]:
     print("✅ Correct!")
 else:
     print(f"❌ Oops! The correct answer is {nato_dict[letter]}.")
-    
+
+
+
+
+
+
+
+
+
+
+
 
 
 
