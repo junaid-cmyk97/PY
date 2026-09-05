@@ -19,12 +19,12 @@ class CoffeeMachine:
     def is_resource_sufficient(self, drink):
         for item in ["water", "milk", "coffee"]:
             if self.resources[item] < self.menu[drink][item]:
-<<<<<<< HEAD
+
                 print(f"Sorry, not enough {item}.")
                 return False
-=======
-                print(f"Sorry, not enough {item}.");return False
->>>>>>> f0236c4e4055c524d7be30802c20fda54192dad5
+
+                print(f"Sorry, not enough {item}.");
+                return False
         return True
     def process_payment(self, cost):
         amount = float(input(f"Please insert ₹{cost:.2f}: "))
@@ -54,8 +54,7 @@ class CoffeeMachine:
                         self.make_coffee(choice)
             else:
                 print("Invalid choice. Please try again.\n")
-<<<<<<< HEAD
+
 CoffeeMachine().run()
-=======
 machine = CoffeeMachine();machine.run()
 

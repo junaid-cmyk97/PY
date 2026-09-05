@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b65f7a06-7233-47b5-90d7-bae2aee2df17" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../JD PY/FILE/quiz app/quiz app .py" beforeDir="false" afterPath="$PROJECT_DIR$/../../JD PY/FILE/quiz app/quiz app .py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="5" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000000006786" />
+      <entry key="S2" value="1.0035982445468814" />
+      <entry key="S5" value="1.2827275745442446" />
+      <entry key="S10" value="2.3472605601538943" />
+      <entry key="S30" value="6.3257160078046475" />
+      <entry key="S60" value="10.477853035229504" />
+      <entry key="M2" value="17.25368907795896" />
+      <entry key="M5" value="29.519633079831586" />
+      <entry key="M10" value="37.92838107036937" />
+      <entry key="M15" value="42.6527515026248" />
+      <entry key="M30" value="51.575325260542364" />
+      <entry key="H1" value="65.86880933574588" />
+      <entry key="H2" value="123.2493635404591" />
+      <entry key="H4" value="307.57021899007214" />
+      <entry key="D1" value="1176.5385604480534" />
+      <entry key="W1" value="1568.4680820121703" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="4.355468829778885E-211" />
+      <entry key="S2" value="2.568968194830247E-53" />
+      <entry key="S5" value="9.202450520101255E-22" />
+      <entry key="S10" value="3.033554107000773E-11" />
+      <entry key="S30" value="3.1187740728663677E-4" />
+      <entry key="S60" value="0.0176600511688567" />
+      <entry key="M2" value="0.13289112524490374" />
+      <entry key="M5" value="0.44606524997375985" />
+      <entry key="M10" value="0.6678812536085673" />
+      <entry key="M15" value="0.7640893364922853" />
+      <entry key="M30" value="0.8787304691354242" />
+      <entry key="H1" value="1.0231272765174608" />
+      <entry key="H2" value="1.5898154054121427" />
+      <entry key="H4" value="3.6233701742701645" />
+      <entry key="D1" value="14.188666293523132" />
+      <entry key="W1" value="19.02044956552103" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9075191553171609" />
+      <entry key="MS500" value="0.9807790039901827" />
+      <entry key="S2" value="0.9978496436384607" />
+      <entry key="S5" value="1.2516541243226593" />
+      <entry key="S10" value="2.280052181611197" />
+      <entry key="S30" value="6.261548587157114" />
+      <entry key="S60" value="10.443745128230239" />
+      <entry key="M2" value="17.329797952397463" />
+      <entry key="M5" value="29.911963158963484" />
+      <entry key="M10" value="38.55766543257983" />
+      <entry key="M15" value="43.386481520219434" />
+      <entry key="M30" value="52.43425600899016" />
+      <entry key="H1" value="66.87848198055153" />
+      <entry key="H2" value="124.82621561139933" />
+      <entry key="H4" value="311.17763567984997" />
+      <entry key="D1" value="1190.7175174992835" />
+      <entry key="W1" value="1587.4867046654872" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3HCxkjqOe3lV5tUs1IwmbxFhDJs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FAMOUS TIFFINS .executor&quot;: &quot;Run&quot;,
+    &quot;Python.classses.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tiff.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tkinter.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="tkinter" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="C:\Users\SIC\Documents\GitHub\PY\file\PythonProject1\tkinter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-245168a56dbd-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.25134.203" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b65f7a06-7233-47b5-90d7-bae2aee2df17" name="Changes" comment="" />
+      <created>1785385996564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785385996564</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
