@@ -61,7 +61,7 @@ chosen_word = random.choice(word_list)
 print(chosen_word)
 placeholder = ''
 for letter in chosen_word:
-    placeholder += "_"
+    placeholder += "_ "
 print(placeholder)
 list_item = []
 lives = 7
