@@ -3,6 +3,22 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/HG CORE/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/NATO/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/PythonProject15/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/calculator/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/currency converter/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/famous tiffins/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/hangman/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/image resizeer/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/image resizer/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/nmber guess _02/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/number guess/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/password generator/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/prac/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/quiz app/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/JAGADEESH/MY_PROJECRS/to_do list/.venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.14 (PY)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
