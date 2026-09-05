@@ -1,25 +1,35 @@
 import random
 
-nato_dict = {
-    "A": "Alpha", "B": "Bravo", "C": "Charlie", "D": "Delta", "E": "Echo",
-    "F": "Foxtrot", "G": "Golf", "H": "Hotel", "I": "India", "J": "Juliett",
-    "K": "Kilo", "L": "Lima", "M": "Mike", "N": "November", "O": "Oscar",
-    "P": "Papa", "Q": "Quebec", "R": "Romeo", "S": "Sierra", "T": "Tango",
-    "U": "Uniform", "V": "Victor", "W": "Whiskey", "X": "X-ray", "Y": "Yankee", "Z": "Zulu"
-}
+def higher_lower_game():
+    # Generate a random number between 1 and 100
+    target_number = random.randint(1, 100)
+    attempts = 0
+    print("Welcome to the Higher or Lower game!")
+    print("I have selected a number between 1 and 100. Can you guess it?")
 
-# Pick a random letter
-letter = random.choice(list(nato_dict.keys()))
-print(f"What is the NATO code for the letter '{letter}'?")
+    while True:
+        # Get user's guess
+        try:
+            guess = int(input("Enter your guess: "))
+        except ValueError:
+            print("Please enter a valid integer.")
+            continue
 
-# Get answer
-answer = input("Your answer: ").strip().capitalize()
+        # Increment attempt count
+        attempts += 1
 
-# Check answer
-if answer == nato_dict[letter]:
-    print("✅ Correct!")
-else:
-    print(f"❌ Oops! The correct answer is {nato_dict[letter]}.")
+        # Check the guess against the target number
+        if guess < target_number:
+            print("Higher! Try again.")
+        elif guess > target_number:
+            print("Lower! Try again.")
+        else:
+            print(f"Congratulations! You guessed the number {target_number} in {attempts} attempts.")
+            break
+
+# Run the game
+if __name__ == "__main__":
+    higher_lower_game()
     
 
 
